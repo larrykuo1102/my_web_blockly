@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>USER :</h1>
+    <h2><p> <%= title %> </p></h2>
+    <ul>
+        <% sayhi.forEach( function(item) { %>
+            <li>
+                <p> <%= item.script %></p>
+            </li>
+        <% }) ; %>
+    </ul>
+    
+    <td><div>
+        <button onclick="location.href='/home'" type="button">上一頁</button>
+    </div></td>
+</body>
+</html>
